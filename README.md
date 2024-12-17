@@ -20,3 +20,10 @@ Target smaller or larger than all elements in the matrix.
 Time and Space Complexity:
 Time Complexity: O(log(m * n)) (binary search over m * n elements).
 Space Complexity: O(1) (constant space used).
+Time Complexity:
+The time complexity of this solution is O(n * m), where:
+n is the length of the string s.
+m is the length of the words array (the number of words).
+For each starting index i, we check the substring of length wordCount * wordLength (which is constant relative to the length of the string s).
+Space Complexity:
+The space complexity is O(m), where m is the number of words, to store the word count in the wordMap and seenWords maps.
